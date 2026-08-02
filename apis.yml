@@ -1,7 +1,23 @@
 aid: truvio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truvio.png
 name: Truvio
-description: Truvio is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Truvio is a unified software portfolio company providing intelligent, AI-driven automation
+  solutions for Microsoft Dynamics 365 across finance, operations, Business Central, and commerce. Its
+  practitioner-built solutions span Accounts Payable automation (ExFlow), Banking & Treasury automation
+  (SKSoft), eCommerce and Product Information Management (DynamicWeb), and Project & Production Management
+  (Axtension), embedding expertise directly into Dynamics 365 to help organizations close the ERP value
+  gap. Backed by Insight Partners. No public developer/API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/truvio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- ERP
+- Microsoft Dynamics 365
+- Business Software
+- Automation
+- Accounts Payable
+- Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,10 @@ maintainers:
 common:
 - type: Website
   url: https://truvio.com/
+- type: Pricing
+  url: https://truvio.com/request-pricing
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
