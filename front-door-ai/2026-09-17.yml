@@ -1,0 +1,33 @@
+# Front Door AI Index — truvio — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: truvio
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: truvio.com
+  final_host: truvio.com
+  ownership: own
+  owner: truvio
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 37
+  host_score: 37
+  density: 17.4
+  words: 2126
+  tiers:
+    agentic: 14
+    core: 23
+    model: 0
+  ambiguous: 40
+  top_terms:
+    automation: 30
+    AI: 23
+    intelligence: 8
+    agentic: 5
+    copilot: 4
+    AI agent: 2
+    agent: 2
+    embedding: 2
+    AI assistant: 1
